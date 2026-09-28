@@ -1,6 +1,6 @@
 # Leal Sistema
 
-Site de apresentação do Leal Sistema, em português, com tema escuro e azul brilhante.
+Landing page do Leal Sistema, criada para apresentar o produto e levar pedidos de orçamento e demonstração ao WhatsApp.
 
 ## Conteúdo
 
@@ -8,13 +8,14 @@ Site de apresentação do Leal Sistema, em português, com tema escuro e azul br
 - Personalização com cores, logo e banner do cliente.
 - Orçamento e demonstração pelo WhatsApp (11) 97786-1991, com mensagens diferentes.
 - Valores sob consulta. Imagens reais do sistema serão adicionadas posteriormente.
+- Hero animada, transições de entrada, menu móvel e controle para pausar o movimento.
 
 ## Visualização
 
-Abra `index.html` no navegador. O site é estático e não precisa instalar dependências nem executar build.
+Abra `index.html` no navegador ou sirva a pasta com qualquer servidor estático. O site não precisa instalar dependências nem executar build. A fonte usa Google Fonts, com fontes locais de reserva.
 
-## Vercel (etapa posterior)
+## Publicação
 
-Importe este repositório como um projeto novo na Vercel. Use o preset Other, sem comando de build e com a raiz do repositório como diretório de saída. O arquivo vercel.json já configura o projeto estático.
+O projeto `leal-sistemas-pkow` está publicado na Vercel em https://leal-sistemas-pkow.vercel.app/. A Vercel o conectou ao repositório `Power-on21/leal-sistemas`; o repositório original `Power-on21/Page-Leal-sistema` também contém o site.
 
-Não é necessário alterar projetos existentes nem configurar banco de dados ou variáveis de ambiente para este site de apresentação.
+O arquivo `vercel.json` configura a publicação estática. Não há banco de dados nem variáveis de ambiente para esta página de apresentação.
